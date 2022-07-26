@@ -1,7 +1,7 @@
 
 function openCity(evt,cityName) {
     
-    var i, pestañacontent,pestañalinks;
+    let i, pestañacontent,pestañalinks;
     pestañacontent = document.getElementsByClassName("pestañacontent");
     for (let i = 0; i < pestañacontent.length; i++) {
         pestañacontent[i].style.display = "none";
@@ -13,3 +13,6 @@ function openCity(evt,cityName) {
     }
     document.getElementById(cityName).style.display = "block";
 }
+
+
+
