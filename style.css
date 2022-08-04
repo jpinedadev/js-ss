@@ -1,60 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
 }
+
 body{
-    background-color: #013a65;
-    color:white;
+    background-color: #a9a9a9;
+    color:#ffc000;
+    padding:15px;
 }
-
 header{
-    display:flex;
-    justify-content: center;
-    padding-top:25px;
-    padding-bottom: 25px;
+    text-align: center;
+    padding:10px;
 }
 
-img{
-    width: 90%;
-    height: 90%;
-    margin:5px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 darkgrey;
-    opacity: 0.6;
-
+section{
+    margin:0 auto;
 }
 
-img:hover{
-    cursor:pointer;
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 5px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.container img{
+    width: 100%;
     opacity: 1;
 }
 
-footer{
-    display: flex;
-    justify-content:center; 
-    align-items:center;
-    padding:15px 0;
+.container .content {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%; 
+    padding: 20px 0;
+    text-align: center;
 }
+
 
 @media (min-width: 768px){
    section{
         display: grid;
         grid-template-columns: auto auto auto auto;
         width: 80%;
-        background-color: #457598;
         margin:0 auto;
         padding:5px;
         border-radius:5px;
+        background-color:#f5f5f5;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   }
 
-   }
-   img{
-        object-fit: cover;
-        gap:15px;
-   }
+    img:hover{
+        cursor:pointer;
+        opacity: 0.8;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
 }
-
