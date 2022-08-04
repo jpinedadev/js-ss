@@ -24,7 +24,7 @@ section{
 .container {
     position: relative;
     max-width: 800px;
-    margin: 5px;
+    margin: 20px 5px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
@@ -51,7 +51,6 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
         grid-template-columns: auto auto auto auto;
         width: 80%;
         margin:0 auto;
-        padding:5px;
         border-radius:5px;
         background-color:#f5f5f5;
 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -60,6 +59,8 @@ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     img:hover{
         cursor:pointer;
         opacity: 0.8;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+    .container{
+        margin: 5px;
     }
 }
